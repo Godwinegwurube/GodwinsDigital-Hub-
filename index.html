@@ -1,261 +1,284 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Egwurube Digital Hub | Digital Skills, Guides & Resources</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Egwurube Digital Hub | Digital Skills, Guides & Resources</title>
 <meta name="google-adsense-account" content="ca-pub-1866956497724273">
-    <meta name="description" content="Egwurube Digital Hub provides practical digital skills, technology guides, online resources and useful information for everyday users.">
+<meta name="description" content="Egwurube Digital Hub provides practical digital skills, technology guides, online resources and useful information for everyday users.">
 
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #222;
-            background: #f5f7fa;
-        }
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: #222;
+        background: #f5f7fa;
+    }
 
-        header {
-            background: #12355b;
-            color: white;
-            padding: 30px 20px;
-            text-align: center;
-        }
+    header {
+        background: #12355b;
+        color: white;
+        padding: 30px 20px;
+        text-align: center;
+    }
 
+    header h1 {
+        margin: 0;
+        font-size: 34px;
+    }
+
+    header p {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    nav {
+        background: white;
+        padding: 15px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+    }
+
+    nav a {
+        color: #12355b;
+        text-decoration: none;
+        margin: 0 12px;
+        font-weight: bold;
+    }
+
+    main {
+        max-width: 1000px;
+        margin: 30px auto;
+        padding: 0 20px;
+    }
+
+    .welcome {
+        background: white;
+        padding: 30px;
+        border-radius: 10px;
+        margin-bottom: 25px;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 20px;
+    }
+
+    .card {
+        background: white;
+        padding: 25px;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+    }
+
+    .card h3 {
+        color: #12355b;
+    }
+
+    .products-section {
+        background: white;
+        padding: 30px;
+        border-radius: 10px;
+        margin: 25px 0;
+    }
+
+    .product-button {
+        display: inline-block;
+        background: #12355b;
+        color: white;
+        padding: 12px 22px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    .product-button:hover {
+        background: #1d4d7d;
+    }
+
+    .disclosure {
+        font-size: 14px;
+        color: #555;
+        margin-top: 18px;
+    }
+
+    footer {
+        background: #12355b;
+        color: white;
+        text-align: center;
+        padding: 25px 15px;
+        margin-top: 40px;
+    }
+
+    footer a {
+        color: white;
+    }
+
+    @media (max-width: 600px) {
         header h1 {
-            margin: 0;
-            font-size: 34px;
-        }
-
-        header p {
-            margin-top: 10px;
-            font-size: 18px;
-        }
-
-        nav {
-            background: white;
-            padding: 15px;
-            text-align: center;
-            border-bottom: 1px solid #ddd;
+            font-size: 28px;
         }
 
         nav a {
-            color: #12355b;
-            text-decoration: none;
-            margin: 0 12px;
-            font-weight: bold;
+            display: inline-block;
+            margin: 5px 8px;
         }
 
-        main {
-            max-width: 1000px;
-            margin: 30px auto;
-            padding: 0 20px;
+        .welcome,
+        .products-section {
+            padding: 20px;
         }
+    }
+</style>
 
-        .welcome {
-            background: white;
-            padding: 30px;
-            border-radius: 10px;
-            margin-bottom: 25px;
-        }
-
-        .cards {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 20px;
-        }
-
-        .card {
-            background: white;
-            padding: 25px;
-            border-radius: 10px;
-            border: 1px solid #ddd;
-        }
-
-        .card h3 {
-            color: #12355b;
-        }
-
-        footer {
-            background: #12355b;
-            color: white;
-            text-align: center;
-            padding: 25px 15px;
-            margin-top: 40px;
-        }
-
-        @media (max-width: 600px) {
-            header h1 {
-                font-size: 28px;
-            }
-
-            nav a {
-                display: inline-block;
-                margin: 5px 8px;
-            }
-        }
-    </style>
-</head>
-
-<body>
-
-<header>
+</head><body><header>
     <h1>Egwurube Digital Hub</h1>
     <p>Practical Digital Skills, Guides & Useful Resources</p>
-</header>
-
-<nav>
+</header><nav>
     <a href="index.html">Home</a>
     <a href="#guides">Guides</a>
     <a href="#skills">Digital Skills</a>
+    <a href="#recommended-products">Recommended Products</a>
     <a href="#about">About</a>
     <a href="#contact">Contact</a>
-</nav>
+</nav><main><section class="welcome">
+    <h2>Welcome to Egwurube Digital Hub</h2>
 
-<main>
+    <p>Welcome to Egwurube Digital Hub, an independent online platform created to provide practical digital information, easy-to-understand guides, educational content, and useful online resources.</p>
 
-    <section class="welcome">
-        <h2>Welcome to Egwurube Digital Hub</h2>
+    <p>Our goal is to make digital knowledge easier to understand and more useful for students, beginners, entrepreneurs, professionals, and everyday internet users.</p>
 
-        <p>Welcome to Egwurube Digital Hub, an independent online platform created to provide practical digital information, easy-to-understand guides, educational content, and useful online resources.</p>
+    <h2>What You Can Find Here</h2>
 
-        <p>Our goal is to make digital knowledge easier to understand and more useful for students, beginners, entrepreneurs, professionals, and everyday internet users.</p>
+    <p>At Egwurube Digital Hub, we share helpful information and practical resources covering areas such as:</p>
 
-        <h2>What You Can Find Here</h2>
+    <ul>
+        <li>Digital skills and online tools</li>
+        <li>Education and learning resources</li>
+        <li>Career development and workplace skills</li>
+        <li>Business and entrepreneurship</li>
+        <li>Technology and practical how-to guides</li>
+        <li>Useful online resources and tips</li>
+    </ul>
 
-        <p>At Egwurube Digital Hub, we share helpful information and practical resources covering areas such as:</p>
+    <h2>Featured Article</h2>
 
-        <ul>
-            <li>Digital skills and online tools</li>
-            <li>Education and learning resources</li>
-            <li>Career development and workplace skills</li>
-            <li>Business and entrepreneurship</li>
-            <li>Technology and practical how-to guides</li>
-            <li>Useful online resources and tips</li>
-        </ul>
+    <p>
+        <a href="digital-skills-for-beginners.html">
+            10 Essential Digital Skills Every Beginner Should Learn in 2026
+        </a>
+    </p>
 
-        <h2>Featured Article</h2>
+    <p>Read our practical guide to the digital skills beginners can develop to improve learning, work, communication, and everyday online activities.</p>
 
-        <p>
-            <a href="digital-skills-for-beginners.html">
-                10 Essential Digital Skills Every Beginner Should Learn in 2026
-            </a>
-        </p>
+    <p>Our content is created with a focus on clarity, usefulness, and originality. We aim to provide information that readers can understand easily and apply in their everyday lives.</p>
 
-        <p>Read our practical guide to the digital skills beginners can develop to improve learning, work, communication, and everyday online activities.</p>
+    <p>Whether you are learning a new digital skill, looking for useful information, exploring online tools, or seeking practical guidance, Egwurube Digital Hub is designed to help you learn and move forward.</p>
 
-        <p>Our content is created with a focus on clarity, usefulness, and originality. We aim to provide information that readers can understand easily and apply in their everyday lives.</p>
+    <p>Explore our website and discover useful information designed to help you learn, grow, and make better use of the digital world.</p>
 
-        <p>Whether you are learning a new digital skill, looking for useful information, exploring online tools, or seeking practical guidance, Egwurube Digital Hub is designed to help you learn and move forward.</p>
+    <h3>More Useful Guides</h3>
 
-        <p>Explore our website and discover useful information designed to help you learn, grow, and make better use of the digital world.</p>
+    <p>
+        <a href="professional-cv-free-online-tools.html">
+            How to Create a Professional CV Using Free Online Tools
+        </a>
+    </p>
 
-        <h3>More Useful Guides</h3>
+    <p>Learn practical ways to create a clear, professional CV using free online tools and present your skills and experience effectively.</p>
 
-        <p>
-            <a href="professional-cv-free-online-tools.html">
-                How to Create a Professional CV Using Free Online Tools
-            </a>
-        </p>
+    <p>
+        <a href="online-tools.html">
+            10 Free Online Tools Every Student and Beginner Should Know in 2026
+        </a>
+    </p>
 
-        <p>Learn practical ways to create a clear, professional CV using free online tools and present your skills and experience effectively.</p>
+    <p>
+        <a href="internet-safety.html">
+            How to Stay Safe Online: 10 Internet Safety Tips for Beginners
+        </a>
+    </p>
+</section>
 
-        <p>
-            <a href="online-tools.html">
-                10 Free Online Tools Every Student and Beginner Should Know in 2026
-            </a>
-        </p>
+<section id="guides">
+    <h2>Our Guides</h2>
 
-        <p>
-            <a href="internet-safety.html">
-                How to Stay Safe Online: 10 Internet Safety Tips for Beginners
-            </a>
-        </p>
-
-    </section>
-
-    <section id="guides">
-        <h2>Our Guides</h2>
-
-        <div class="cards">
-
-            <div class="card">
-                <h3>Technology Guides</h3>
-                <p>
-                    Simple guides explaining useful technology, websites,
-                    applications and online tools.
-                </p>
-            </div>
-
-            <div class="card">
-                <h3>Digital Skills</h3>
-                <p>
-                    Learn practical digital skills that can help you study,
-                    work and grow professionally.
-                </p>
-            </div>
-
-            <div class="card">
-                <h3>Online Resources</h3>
-                <p>
-                    Discover useful online resources, platforms and tools
-                    for learning and productivity.
-                </p>
-            </div>
-
+    <div class="cards">
+        <div class="card">
+            <h3>Technology Guides</h3>
+            <p>Simple guides explaining useful technology, websites, applications and online tools.</p>
         </div>
-    </section>
 
-    <section id="skills">
-        <h2>Learn and Grow</h2>
+        <div class="card">
+            <h3>Digital Skills</h3>
+            <p>Learn practical digital skills that can help you study, work and grow professionally.</p>
+        </div>
 
-        <p>
-            We believe that digital knowledge should be accessible to
-            everyone. Egwurube Digital Hub will continue to publish useful
-            tutorials, explanations and practical information.
-        </p>
-    </section>
+        <div class="card">
+            <h3>Online Resources</h3>
+            <p>Discover useful online resources, platforms and tools for learning and productivity.</p>
+        </div>
+    </div>
+</section>
 
-    <section id="about">
-        <h2>About Egwurube Digital Hub</h2>
+<section id="skills">
+    <h2>Learn and Grow</h2>
 
-        <p>Egwurube Digital Hub is an independent digital information platform focused on providing helpful, original, and easy-to-understand educational content, practical guides, and useful online resources.</p>
+    <p>We believe that digital knowledge should be accessible to everyone. Egwurube Digital Hub will continue to publish useful tutorials, explanations and practical information.</p>
+</section>
 
-        <p>Our goal is to help students, professionals, entrepreneurs, and everyday internet users find reliable information that can support learning, personal development, digital skills, and everyday decision-making.</p>
+<section id="recommended-products" class="products-section">
+    <h2>Recommended Products</h2>
 
-        <p>We publish informative articles and practical resources covering topics such as education, digital skills, career development, technology, online tools, business, and other useful areas of everyday life.</p>
+    <p>Looking for useful products for learning, working, studying or everyday digital life? Explore products available through our Jumia partner link.</p>
 
-        <p>We believe that useful information should be simple, accessible, and practical. Our content is created to provide genuine value to readers and help them learn something useful or take a practical next step.</p>
+    <p>Depending on availability, you may find electronics, phone accessories, computer accessories, study supplies and other useful items.</p>
 
-        <p>Egwurube Digital Hub is independently operated, and we are committed to continually improving the quality, usefulness, and originality of the content published on this website.</p>
+    <p>
+        <a class="product-button"
+           href="https://jforce.jumia.com.ng/s/HZz9Vnm"
+           target="_blank"
+           rel="sponsored nofollow noopener">
+            Explore Products on Jumia
+        </a>
+    </p>
 
-        <p>Thank you for visiting Egwurube Digital Hub.</p>
-    </section>
+    <p class="disclosure">
+        Affiliate disclosure: This page contains an affiliate link. Egwurube Digital Hub may earn a commission when you make an eligible purchase through this link, at no additional cost to you. Product availability, prices and applicable terms are determined by Jumia.
+    </p>
+</section>
 
-    <section id="contact">
-        <h2>Contact Us</h2>
+<section id="about">
+    <h2>About Egwurube Digital Hub</h2>
 
-        <p>Phone: 08154813795</p>
+    <p>Egwurube Digital Hub is an independent digital information platform focused on providing helpful, original, and easy-to-understand educational content, practical guides, and useful online resources.</p>
 
-        <p>Email: godwinegwurube@gmail.com</p>
+    <p>Our goal is to help students, professionals, entrepreneurs, and everyday internet users find reliable information that can support learning, personal development, digital skills, and everyday decision-making.</p>
 
-        <p>
-            For general enquiries and feedback, please check this section
-            as we continue developing our contact page.
-        </p>
-    </section>
+    <p>We publish informative articles and practical resources covering topics such as education, digital skills, career development, technology, online tools, business, and other useful areas of everyday life.</p>
 
-    <p><a href="privacy.html">Privacy Policy</a></p>
+    <p>We believe that useful information should be simple, accessible, and practical. Our content is created to provide genuine value to readers and help them learn something useful or take a practical next step.</p>
 
-    <p><a href="terms.html">Terms & Conditions</a></p>
+    <p>Egwurube Digital Hub is independently operated, and we are committed to continually improving the quality, usefulness, and originality of the content published on this website.</p>
 
-</main>
+    <p>Thank you for visiting Egwurube Digital Hub.</p>
+</section>
 
-<footer>
+<section id="contact">
+    <h2>Contact Us</h2>
+
+    <p>Phone: 08154813795</p>
+    <p>Email: <a href="mailto:godwinegwurube@gmail.com">godwinegwurube@gmail.com</a></p>
+
+    <p>For general enquiries and feedback, please contact us using the details above.</p>
+</section>
+
+<p><a href="privacy.html">Privacy Policy</a></p>
+<p><a href="terms.html">Terms &amp; Conditions</a></p>
+
+</main><footer>
     <p>&copy; 2026 Egwurube Digital Hub. All rights reserved.</p>
-</footer>
-
-</body>
+    <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms &amp; Conditions</a></p>
+</footer></body>
 </html>
